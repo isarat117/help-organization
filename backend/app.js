@@ -14,7 +14,7 @@ app.use('/users',usersRouter)
 app.get('/',(req,res)=>{
   
     res.send("g")
-    console.log("bağlandı ha")
+    console.log("bağlandı")
 
 })
 
